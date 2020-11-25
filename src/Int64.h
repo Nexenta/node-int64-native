@@ -10,7 +10,7 @@ using namespace v8;
 
 class Int64 : public Nan::ObjectWrap {
  public:
-  static void Init(Handle<Object> exports);
+  static void Init(Local<Object> exports);
 
  private:
   Int64();

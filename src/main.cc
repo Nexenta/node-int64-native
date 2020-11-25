@@ -10,7 +10,7 @@
 using namespace node;
 using namespace v8;
 
-void InitAll(Handle<Object> exports) {
+void InitAll(Local<Object> exports) {
   Int64::Init(exports);
 }
 
